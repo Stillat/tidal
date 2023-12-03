@@ -10,17 +10,17 @@ project_versions:
     documentation_collection: v0.0.1
     github_settings:
       github_repository: 'https://github.com/stillat/tidal'
-      github_edit_root: 'https://github.com/stillat/tidal'
+      github_edit_root: null
   -
     id: lplip2cn
     version_number: 1.0.0
     version_name: 1.x
     github_settings:
       github_repository: 'https://github.com/stillat/tidal'
-      github_edit_root: 'https://github.com/stillat/tidal'
+      github_edit_root: 'https://github.com/Stillat/tidal/tree/main/content'
     documentation_collection: documentation
 updated_by: 6d1656fd-9c60-40aa-affd-864034fda3ff
-updated_at: 1701440007
+updated_at: 1701618367
 show_version_warning: true
 project_description: 'Tidal is a *powerful* documentation-focused starter kit for Statamic, with support for multiple projects and versions.'
 ---
