@@ -10,6 +10,7 @@ export_paths:
   - config/statamic/search.php
   - config/feedamic.php
   - resources/blueprints
+  - lang
   - resources
   - public/assets
   - public/social-media-images

@@ -2,13 +2,11 @@
 
 namespace App\Providers;
 
-use App\Listeners\EntryCreatedListener;
 use App\Listeners\FaviconListener;
 use App\Listeners\SearchCompleteListener;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Auth\Listeners\SendEmailVerificationNotification;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
-use Statamic\Events\EntryCreated;
 use Statamic\Events\GlobalSetSaved;
 use Stillat\DocumentationSearch\Events\SearchComplete;
 
@@ -28,9 +26,6 @@ class EventServiceProvider extends ServiceProvider
         ],
         SearchComplete::class => [
             SearchCompleteListener::class,
-        ],
-        EntryCreated::class => [
-            EntryCreatedListener::class,
         ],
     ];
 
