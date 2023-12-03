@@ -17,10 +17,10 @@ project_versions:
     version_name: 1.x
     github_settings:
       github_repository: 'https://github.com/stillat/tidal'
-      github_edit_root: 'https://github.com/Stillat/tidal/tree/main/content'
+      github_edit_root: 'https://github.com/Stillat/tidal/tree/main/'
     documentation_collection: documentation
 updated_by: 6d1656fd-9c60-40aa-affd-864034fda3ff
-updated_at: 1701618367
+updated_at: 1701618585
 show_version_warning: true
 project_description: 'Tidal is a *powerful* documentation-focused starter kit for Statamic, with support for multiple projects and versions.'
 ---
