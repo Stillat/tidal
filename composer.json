@@ -1,0 +1,9 @@
+{
+    "name": "stillat/tidal",
+    "extra": {
+        "statamic": {
+            "name": "Tidal",
+            "description": "A documentation-focused starter kit for Statamic."
+        }
+    }
+}

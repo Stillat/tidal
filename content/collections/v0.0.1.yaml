@@ -1,0 +1,15 @@
+title: 'Tidal Alpha Docs'
+template: documentation/show
+layout: layout
+revisions: false
+route: 'tidal/alpha/{slug}'
+date: true
+sort_dir: asc
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true
+structure:
+  root: false
+  max_depth: 2
