@@ -14,8 +14,8 @@
             </div>
         </div>
         <div class="flex items-center space-x-2">
-            {{ locales as="entry_locales" self="false" }}
-                {{ unless no_results }}
+            {{ locales as="entry_locales" }}
+                {{ unless no_results || entry_locales | hide_language_picker }}
                 <div class="flex items-center">
                     {{ svg:hero-icons/outline/globe-alt class="w-4 h-4 mr-1" aria-hidden="true" /}}
                     <label for="entryLocales" class="sr-only">Language</label>
