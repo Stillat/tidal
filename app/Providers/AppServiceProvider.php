@@ -42,15 +42,6 @@ class AppServiceProvider extends ServiceProvider
             return $assetContainer->disk()->path($favicon->path());
         });
 
-        SocialMediaImageKit::configureBrowsershot(function (Browsershot $browsershot) {
-            $browsershot->setCustomTempPath('C:/chromedata/tmp')
-                ->setUserDataDir('C:/chromedata')
-                ->setNodeBinary('C:/Program Files/nodejs/node.exe')
-                ->waitUntilNetworkIdle()
-                ->newHeadless()
-                ->noSandbox();
-        });
-
         Metadata::resolve('title', function (array $context) {
             if (! array_key_exists('title', $context) && ! array_key_exists('site_settings', $context)) {
                 return config('app.name');

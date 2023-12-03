@@ -7,6 +7,8 @@ export_paths:
   - config/search_report.php
   - config/filesystems.php
   - config/statamic/assets.php
+  - config/statamic/search.php
+  - config/feedamic.php
   - resources/blueprints
   - resources
   - public/assets
