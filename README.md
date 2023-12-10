@@ -9,6 +9,10 @@ Tidal also supports Statamic's multi-site feature. If you are interested in usin
 
 Happy documentation-writing!
 
+## Installation and Documentation
+
+Tidal's installation and documentation guide can be found online at https://stillat.com/tidal-starter-kit/v1/installation-and-upgrading
+
 ## License
 
 Tidal is open-source software, released under the GPL-3.0 license.
