@@ -11,6 +11,7 @@ export_paths:
   - config/feedamic.php
   - resources/blueprints
   - lang
+  - routes
   - resources
   - public/assets
   - public/social-media-images
